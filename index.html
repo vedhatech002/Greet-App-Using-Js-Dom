@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greet App</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main class="main-box">
+      <h3>Hello what is your Name?</h3>
+      <input
+        id="input-name"
+        class="name-input"
+        type="text"
+        placeholder="Enter your sweet name"
+      />
+      <small id="error-msg"></small>
+      <button class="btn" id="submit-btn">Submit</button>
+    </main>
+    <!-- popup -->
+    <section id="greet-popup" class="popup">
+      <!-- img vanakam -->
+      <div class="img-div">
+        <img src="./assets/vanakam.png" alt="vanakam" width="60px" />
+      </div>
+      <!-- description -->
+      <div class="msg">
+        <h3>Welcome !</h3>
+        <p id="user-name">vijayavedhasekaran</p>
+      </div>
+      <button id="close-btn">Ok</button>
+    </section>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

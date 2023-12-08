@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;800&family=Poppins:wght@200;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins", sans-serif;
+  background-color: #2db3c4d6;
+}
+.main-box {
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 12rem;
+  max-width: 425px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+}
+.name-input {
+  background-color: #c7e5e9;
+  width: -webkit-fill-available;
+  padding: 5px 10px;
+  border: 0px;
+  border-radius: 4px;
+  outline: none;
+}
+#error-msg {
+  font-size: 12px;
+  margin-top: -11px;
+  color: red;
+}
+.btn {
+  cursor: pointer;
+  width: -webkit-fill-available;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+/* popup styling */
+.popup {
+  position: absolute;
+  top: 29%;
+  width: 270px;
+  padding: 1.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  border-radius: 8px;
+  visibility: hidden;
+}
+.popup > .img-div {
+  background-color: #4caf50;
+  padding: 12px 0.8rem;
+  margin-top: -25%;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.popup > .msg {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.popup > button {
+  background-color: #4caf50;
+  padding: 8px 16px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
